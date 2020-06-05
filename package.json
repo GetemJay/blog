@@ -1,0 +1,32 @@
+{
+  "name": "getemjay-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "repository": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs",
+    "publish": "bash deploy.sh",
+    "start": "npm run docs:dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "canvas-nest.js": "^2.0.4",
+    "gitalk": "^1.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "vue-print-nb": "^1.4.0",
+    "vuedraggable": "^2.23.0",
+    "xy-ui": "^1.4.2"
+  },
+  "devDependencies": {
+    "concurrently": "^4.1.1",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^7.1.0"
+  },
+  "optionalDependencies": {}
+}
