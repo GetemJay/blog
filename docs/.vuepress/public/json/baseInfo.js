@@ -8,5 +8,5 @@ export default [
   { name: "籍贯", value: "北京" },
   { name: "工作年限", value: `${new Date().getFullYear() - 2017}年` },
   { name: "状态", value: "求职中" },
-  { name: "个人博客", value: "GetemJay.github.io.git" }
+  { name: "个人博客", value: "GetemJay.github.io" }
 ]
